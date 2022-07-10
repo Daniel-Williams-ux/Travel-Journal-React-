@@ -1,5 +1,25 @@
-main {
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: #F55A5A;
+  justify-content: center;
   text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+}
+
+.nav--logo {
+  display: inline-block;
+   width: 24px;
+   height: 24px;
+   background: #DADADA;
+   margin: 16px;
+}
+
+p {
+  display: inline-block;
+  color: #FFFFFF;
+  height: 24px;
+  left: 213px;
+  top: 16px;
 }
