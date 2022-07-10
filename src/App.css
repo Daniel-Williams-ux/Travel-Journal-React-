@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 nav {
     height: 70px;
     display: flex;
@@ -9,17 +18,21 @@ nav {
 }
 
 .nav--logo {
-  display: inline-block;
    width: 24px;
    height: 24px;
    background: #DADADA;
-   margin: 16px;
+   margin: auto;
+}
+
+.icon {
+  margin-right: 5px;
 }
 
 p {
-  display: inline-block;
   color: #FFFFFF;
   height: 24px;
   left: 213px;
   top: 16px;
+  margin: auto;
+  
 }

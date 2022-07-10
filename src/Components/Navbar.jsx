@@ -3,7 +3,12 @@ export default function Navbar () {
   return (
     <div>
     <nav>
-            <img src="../images/icon.jpg" className="nav--logo"/><p>my travel journal</p>
+      <div class="icon">
+            <img src="../images/icon.jpg" className="nav--logo"/>
+        </div>
+      <div class="title">
+      <p>my travel journal</p>
+        </div>
         </nav>
       </div>
   )
