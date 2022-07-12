@@ -1,7 +1,7 @@
 import React from "react"
 export default function Navbar () { 
   return (
-    <div>
+    
     <nav>
       <div class="icon">
             <img src="../images/icon.jpg" className="nav--logo"/>
@@ -10,6 +10,5 @@ export default function Navbar () {
       <p>my travel journal</p>
         </div>
         </nav>
-      </div>
   )
 }
